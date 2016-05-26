@@ -1,6 +1,10 @@
 body {
   background-color: #ebe6bc
+  margin-right: 10px;
 }
 p.pop-text1 {
 	color: red;
+}
+img.Bio_Photo {
+	height: 400px;
 }
