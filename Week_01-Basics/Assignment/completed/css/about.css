@@ -8,3 +8,13 @@ p.pop-text1 {
 img.Bio_Photo {
 	height: 400px;
 }
+p.halves {
+	float: left;
+	width: 49%;
+	margin-right:2%;
+}
+p.halves-last {
+	float: left;
+	width: 49%;
+	margin-right:0;
+}
