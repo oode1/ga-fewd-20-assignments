@@ -2,6 +2,10 @@ body {
   background-color: #ebe6bc;
   margin-right: 10px;
 }
+div.container {
+	background-color: #000000;
+	color: #fffff;
+}
 h2.pop-text1 {
 	color: red;
 }
