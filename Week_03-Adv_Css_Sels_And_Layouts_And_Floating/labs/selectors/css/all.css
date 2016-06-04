@@ -21,3 +21,69 @@
     background-color: #00FF00;
 }
 
+/* SEGMENT 3 example 1 */
+#segment3 > p > a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 3 - example 2 */
+#segment3 p a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 4 */
+#segment4 > a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 5 * - not the best way */
+#segment5 a[href foo=""] {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 5 * - better way */
+#segment5 a:first-child {
+	background-color: #00FF00;
+}
+
+
+/* SEGMENT 6  */
+#segment6 article.stuff2 a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 6 - method 2 - most elegant */
+#segment6 .stuff2 a {
+	background-color: #00FF00;
+}
+
+
+/* SEGMENT 6 - method 3 */
+#segment6 .stuff2 p a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 7 */
+#segment7 #para2 a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 7 - another way*/
+#segment7 #para2 > a {
+	background-color: #00FF00;
+}
+
+/* SEGMENT 8 */
+#segment8 article:last-child a:last-child {
+	background-color: #00FF00;
+}
+
+
+/* SEGMENT 9 - see mozilla for explanation of nth */
+#segment9  article:nth-child(2n+0) a:nth-child(2n+0){
+	background-color: #00FF00;
+}
+
+ul li:nth-child(2n+0) {
+	background-color: #CCC;
+}
