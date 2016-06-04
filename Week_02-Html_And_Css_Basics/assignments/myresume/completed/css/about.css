@@ -15,11 +15,13 @@ img.Bio_Photo {
 }
 div.halves {
 	float: left;
-	width: 49%;
-	margin-right:2%;
+	width: 46%;
+	margin-left:3%;
+	margin-right:0;
 }
 div.halves-last {
 	float: left;
-	width: 49%;
+	width: 46%;
+	margin-left:3%;
 	margin-right:0;
 }
