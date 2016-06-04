@@ -1,7 +1,25 @@
 
 /** CSS RULES GO IN HERE */
 
+section p#para1 a:hover {
+	color: #00FF00;
+	font-size: 300%;
+}
 
+section p#para2 a {
+  color: #00AAAA;
+  font-size: 300%;
+  }
 
+section p#para3 a{
+	color: #3344FF;
+	font-size: 300%;
+}
 
+section a:hover {
+	  font-weight: bold;
+	  background-color: #FF0044;
+}
+
+para1.portfolio
 

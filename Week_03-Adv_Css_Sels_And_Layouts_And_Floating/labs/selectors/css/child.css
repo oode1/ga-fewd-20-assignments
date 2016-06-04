@@ -1,7 +1,21 @@
 
 /** CSS RULES GO IN HERE */
 
+section > div > p > a {
+  background-color: #00FF00;
+  font-size: 300%;
+}
 
+section > div a {
+  background-color: #FF0000;
+  font-size: 300%;
+}
 
+section p > a.mylink {
+  background-color: #FF00FF;
+  font-size: 300%;
+}
 
-
+section img.image{
+	background-color: #FF0000;
+} 

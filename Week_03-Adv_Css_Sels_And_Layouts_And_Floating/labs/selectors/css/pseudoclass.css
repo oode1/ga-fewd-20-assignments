@@ -1,7 +1,21 @@
 
 /** CSS RULES GO IN HERE */
-
-
-
+body {
+	background: #AAB2FF;
+}
+a:hover{
+	color:#55BB22;
+}
+.Here:hover{
+	color:#FF3311;
+}
+article.myarticle:first-child {
+	background-color: #BB00B8;
+	font-size: 300%;
+}
+article.myarticle:last-child {
+	background-color: #AAFFB8;
+	font-size: 300%;
+}
 
 
