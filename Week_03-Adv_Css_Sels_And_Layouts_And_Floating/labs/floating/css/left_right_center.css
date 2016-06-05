@@ -1,6 +1,10 @@
 
 section#mycontent > article {
   background-color: #FFFF00;
+  font-family: sans-serif;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
