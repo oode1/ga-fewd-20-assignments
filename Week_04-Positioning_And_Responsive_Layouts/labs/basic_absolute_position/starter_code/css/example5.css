@@ -19,6 +19,13 @@ body {
 }
 
 #box {
-  /* RULES GO HERE */
+  background-color: #FF0000;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
 }
 
