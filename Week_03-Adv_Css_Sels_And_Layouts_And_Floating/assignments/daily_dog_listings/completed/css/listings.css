@@ -1,26 +1,40 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body, html {
-	background-color: #F7FF85;
+  background-color: #8AFF9B;
+  font-family: sans-serif;
+}
+.header {
+  font-size: 300px
+  color: #FF0000
+  font-size: 300%
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article1 {
+  border: 3px solid #00FF00;
 }
 }
-div.section1 {
-	float: left;
-	width: 200px;
-	border: 3px solid #00FF00;
+p.section1 {
+  float: left;
+  width: 200px;
+}
+.article2 {
+  border: 3px solid #0000FF;
 }
 p.section2 {
-	float: left;
-	width: 200px;
-	border: 3px solid #00FF00;
+  float: left;
+  width: 200px;
 }
 footer.footer {
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 3px solid #00FF00;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #00FF00;
 }
 .clearing {
-	clear: both;
+  clear: both;
 }
+ 
