@@ -11,6 +11,7 @@ html,body {
 	height:50px;
 	top:0px; left:0px;
 	z-index: 9;
+	/* border-radius:51%; */
 }
 #planet2{
 	background-color:#FF0000;
@@ -18,6 +19,7 @@ html,body {
 	height:65px;
 	top:0px; left:0px;
 	z-index: 8;
+	/* border-radius:51%; */
 }
 #planet3{
 	background-color:#6F3662;
@@ -25,6 +27,7 @@ html,body {
 	height:85px;
 	top:0px; left:0px;
 	z-index: 7;
+	/* border-radius:51%; */
 }
 #planet4{
 	background-color:#FFFF00;
@@ -32,13 +35,15 @@ html,body {
 	height:120px;
 	top:0px; left:0px;
 	z-index: 6;
+	/* border-radius:51%; */
 }
 #planet5{
 	background-color:#BF2E25;
 	width: 135px;
-	height:235px;
+	height:135px;
 	top:0px; left:0px;
 	z-index: 5;
+	/* border-radius:51%; */
 }
 #planet6{
 	background-color:#0099CC;
@@ -46,6 +51,7 @@ html,body {
 	height:150px;
 	top:0px; left:0px;
 	z-index: 4;
+	/* border-radius:51%; */
 }
 #planet7{
 	background-color:#3C9F26;
@@ -53,18 +59,20 @@ html,body {
 	height:190px;
 	top:0px; left:0px;
 	z-index: 3;
+	/* border-radius:51%; */
 }
 #big-planet{
 	background-color:#EF7192;
-	width: 550px;
-	height:550px;
+	width: 400px;
+	height:400px;
 	top:0px; left:0px;
 	z-index: 2;
+	/* border-radius:51%; */
 }
 #axis{
 	border: solid 2px #EF7192;
-	width: 500px;
-	height:500px;
+	width: 650px;
+	height:650px;
 	top:0px; left:0px;
 	z-index: 1;
 }
