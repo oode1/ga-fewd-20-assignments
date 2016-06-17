@@ -6,63 +6,63 @@ html,body {
 	top: 0px; left: 0px;
 }
 #planet1{
-	background-color:#00FF22;
-	width: 100px;
-	height:100px;
+	background-color:#40E0D0;
+	width: 50px;
+	height:50px;
 	top:0px; left:0px;
 	z-index: 9;
 }
 #planet2{
 	background-color:#FF0000;
-	width: 150px;
-	height:150px;
+	width: 65px;
+	height:65px;
 	top:0px; left:0px;
 	z-index: 8;
 }
 #planet3{
-	background-color:#FF00FF;
-	width: 200px;
-	height:200px;
+	background-color:#6F3662;
+	width: 85px;
+	height:85px;
 	top:0px; left:0px;
 	z-index: 7;
 }
 #planet4{
 	background-color:#FFFF00;
-	width: 250px;
-	height:250px;
+	width: 120px;
+	height:120px;
 	top:0px; left:0px;
 	z-index: 6;
 }
 #planet5{
-	background-color:#F398FC;
-	width: 300px;
-	height:300px;
+	background-color:#BF2E25;
+	width: 135px;
+	height:235px;
 	top:0px; left:0px;
 	z-index: 5;
 }
 #planet6{
-	background-color:#FF00FF;
-	width: 350px;
-	height:350px;
+	background-color:#0099CC;
+	width: 150px;
+	height:150px;
 	top:0px; left:0px;
 	z-index: 4;
 }
 #planet7{
-	background-color:#00FF00;
-	width: 400px;
-	height:400px;
+	background-color:#3C9F26;
+	width: 190px;
+	height:190px;
 	top:0px; left:0px;
 	z-index: 3;
 }
 #big-planet{
 	background-color:#EF7192;
-	width: 450px;
-	height:450px;
+	width: 550px;
+	height:550px;
 	top:0px; left:0px;
 	z-index: 2;
 }
 #axis{
-	border:#EF7192;
+	border: solid 2px #EF7192;
 	width: 500px;
 	height:500px;
 	top:0px; left:0px;
