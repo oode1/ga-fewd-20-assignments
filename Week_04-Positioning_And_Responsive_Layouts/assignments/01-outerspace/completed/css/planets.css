@@ -1,3 +1,9 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 html,body {
   background-color:#000000;
 }
@@ -11,7 +17,7 @@ html,body {
 	height:50px;
 	top:0px; left:0px;
 	z-index: 9;
-	/* border-radius:51%; */
+	/*border-radius:51%; */
 }
 #planet2{
 	background-color:#FF0000;
