@@ -1,14 +1,11 @@
 
 "use strict";
 
-
 function main () {
-  var userValue;
-
-  userValue = window.prompt("Hello! Please enter a value!");
-  window.alert("You entered: " + userValue);
-
-  return false;
+  var val1 = window.prompt("Please enter your first value");
+  var val2 = window.prompt("Now enter a second value");
+  var finalVal = parseInt(val1) + parseInt(val2);
+  window.alert("Your Final Value Is " + finalVal);
 }
 
 
