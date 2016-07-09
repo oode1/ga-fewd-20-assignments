@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <form>
+  <fieldset>
+    <label for="username">Username</label>
+      <input 
+          id="username"
+          name="username"
+          minlength="3"
+          maxlength="10"
+          type="text" value="Pepsi" 
+          placeholder="Enter your name" />
+  </fieldset>
+
+  <fieldset>
+    <label for="password">Password</label>
+      <input 
+          id="password"
+          name="password"
+          type="password" 
+          value="Coke#1" 
+          placeholder="Enter your Guess" required="required" />
+  </fieldset>
+
+  <fieldset>
+    <label for="bio">Bio</label>
+      <textarea placeholder="Enter a Bio" id="bio" name="bio" readonly="readonly">
+      	The choice of a new generation.  That's me, Pepsi.
+      </textarea>
+  </fieldset>
+
+  <fieldset>
+    <label for="beverage">Beverage</label>
+      <select id="Drink" name="Drink" multiple size=4>
+       <optgroup label="Flavors"> 
+        <option value="Cherry">Cherry</option>
+        <option value="Zero" selected="selected">Zero</option>
+        <option vaule="Max">Max</option>
+      </optgroup>
+      <optgroup label="Format">
+        <option value="Bottle" selected="selected">Bottle</option>
+        <option value="Can">Can</option>
+      </optgroup>
+      </select>
+  </fieldset>
+
+  <fieldset>
+      <label for="food_pizza">Pizza</label>
+      <input 
+        type="radio" 
+        id="food_pizza"
+        name="food"
+        value="pizza" />
+     <label for="food_burritos">Burritos</label>
+     <input 
+        type="radio" 
+        id="food_burritos"
+        name="food"
+        value="pizza" />
+  </fieldset>
+
+  <fieldset>
+     <label for="number">Age</label>
+     <input 
+        type="number"
+        min="5"
+        max="20"
+        placeholder="Enter your age"
+        id="age"
+        name="age" />
+  </fieldset>
+
+  <fieldset>   
+     <label for="favoritecolor">Favorite Color</label>
+     <input id="favoritecolor" name="favoritecolor" type="color" />
+  </fieldset>
+
+  <fieldset>
+   <label for="birthday_box">Birthday</label>
+   <div id="birthday_box">
+     <span>Birthday</span>
+     <input 
+       id="birthday" 
+       name="birthday" 
+       type="datetime-local"/>
+   </div>
+  </fieldset>
+
+   <fieldset>
+   <label for="checkbox">Is this information correct?</label>
+      <input type="checkbox" id="newsletter" name="newsletter" checked="checked"/>
+      <input type="submit" value="Select my Beverage" />
+  </fieldset>
+  
+    </form>
+  </body>
+</html>
