@@ -3,15 +3,6 @@
 
 var main = function () {
 
-  var box1 = $('article#box1');
-
-  box1.on('click', function () {
-
-    $('article#box2').fadeOut(2000, function () {
-      box1.css('background-color', '#FF0000');
-    })
-
-  });
 
 };
 

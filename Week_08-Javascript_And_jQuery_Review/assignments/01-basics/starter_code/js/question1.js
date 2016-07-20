@@ -3,12 +3,6 @@
 
 var main = function () {
 
-  $('article#box1').on('click', function () {
-
-    var box2 = $('article#box2');
-    box2.css('background-color', '#FF0000');
-
-  });
 
 };
 
