@@ -1,0 +1,55 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+ html, body {
+ 	height: 100%;
+ }
+	
+body {
+	background-color: #efefef;
+	margin: 0px;
+	padding: 0px;
+}
+
+img#logo {
+  display: block;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+div#toptext {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #FF0000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main {
+  padding: 20px;
+  border: 1px solid #000000;
+  margin: 20px;
+}
+
+.clearit {
+  clear: both;
+}

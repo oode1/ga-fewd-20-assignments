@@ -1,0 +1,75 @@
+/* CSS Document */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, Sans-serif;
+  font-weight: lighter;
+  letter-spacing: .0625rem;
+  line-height: 3.5rem;
+  font-size: 3.25rem;
+  color: #ffffff;
+  text-align:center;
+  text-transform: lowercase;
+}
+
+body {
+  background-image: url("../images/home_4320x2470_2.jpg");  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.isenabled {
+  background-image: url("../images/home_4320x2470.jpg");
+}
+
+div#preloaded {
+  display: none;
+  background-image: url("../images/home_4320x2470.jpg");
+}
+
+main {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+blockquote {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 200px;
+}
+
+body blockquote#mainquote {
+  display: block;
+  cursor: default;
+}
+
+body blockquote#questionquote {
+  display: none;
+  cursor: pointer;
+}
+
+body.isenabled blockquote#mainquote {
+  display: none;
+}
+
+body.isenabled blockquote#questionquote {
+  display: block;
+}
+
+

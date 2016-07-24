@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="./css/FinProj.css" />
+    <script
+       src="https://code.jquery.com/jquery-3.1.0.min.js"
+       integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+       crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/FinProj.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+      <h1>Mortgage Calculator</h1>
+      </header>
+
+      <form id="mainform">
+      	
+        <fieldset>
+          <label for="PurchasePrice">Purchase Price ($)</label>
+          <input
+            type="number"
+            name="PurchasePrice"
+            id="PurchasePrice"  
+            min="0"
+            placeholder="Enter Purchase Price"
+            value="300000"
+            required
+            />
+        </fieldset>
+
+      	<fieldset>
+      		<label for="LoanAmount">Loan Amount ($)</label>
+      		<input 
+      		  type="number"
+            name="LoanAmount" 
+            id="LoanAmount" 
+      		  min="0"
+      		  placeholder="Enter Loan Amount" 
+            value="200000"
+            required
+            />
+      	</fieldset>
+
+        <fieldset>
+          <label for="AnnualIntRate">Annual Interest Rate (%)</label>
+          <input 
+            type="number" 
+            name="AnnualIntRate"
+            id="AnnualIntRate"
+            min="0"
+            placeholder="Enter Interest Rate"
+            value="0.04"
+            step="any"
+            required
+            />
+        </fieldset>
+
+        <fieldset>
+          <label for="LoanTerm">Loan Term (Years)</label>
+          <input 
+            type="number"
+            name="LoanTerm"
+            id="LoanTerm"
+            min="1"
+            placeholder="Enter Loan Term"
+            value="30"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="PaymentFrequency">Payment Frequency</label>
+          <select id="PaymentFrequency" name="PaymentFrequency" required > 
+          <option value="Monthly" selected>Monthly</option>
+          <option value="Semi-Monthly">Semi-Monthly</option>
+          <option value="Annually">Annually</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="AnnualPropertyTax">Annual Property Tax ($)</label>
+          <input 
+            type="number" 
+            name="AnnualPropertyTax"
+            id="AnnualPropertyTax" 
+            min="0" 
+            placeholder="Enter Annual Property Tax" 
+            value="3000"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="PMI">PMI (Pvt Mortgage Ins (%))</label>
+          <input 
+            type="number" 
+            name="PMI"
+            id="PMI"
+            min="0"
+            placeholder="Enter PMI"
+            value="0.035"
+            step="any"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="HomeInsurance">Home Insurance ($/Yr)</label>
+          <input 
+            type="number" 
+            name="HomeInsurance"
+            id="HomeInsurance"
+            min="0"
+            placeholder="Enter Home Insurance"
+            value="2000"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="MonthlyHOD">Monthly HOD ($)</label>
+          <input 
+            type="number" 
+            name="MonthlyHOD"
+            id="MonthlyHOD"
+            min="0"
+            value="400"
+            placeholder="Enter Monthly HOD"
+            />
+        </fieldset>
+
+        <fieldset>
+          <label for="TotalPayment">Total Monthly Payment ($)</label>
+          <input 
+            type="number" 
+            name="TotalPayment"
+            id="TotalPayment"
+            placeholder="Total Monthly Payment"
+            readonly
+            />
+        </fieldset>
+
+        <fieldset>
+          <input 
+              type="submit"
+              value="Calculate"
+            />
+        </fieldset>
+
+      </form>
+    </main>
+  </body>
+</html>
+   
